@@ -26,7 +26,7 @@ tauri = { version = "2.11.3", features = [] }
 tauri-plugin-log = "2"
 time = "=0.3.51"
 dirs = "6"
-git2 = "0.19"
+git2 = { version = "0.19", features = ["vendored-openssl"] }
 reqwest = { version = "0.12", features = ["json", "rustls-tls"], default-features = false }
 urlencoding = "2"
 zip = "2"
