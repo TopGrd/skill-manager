@@ -1,0 +1,13 @@
+.superpowers/
+docs/
+
+# Node
+node_modules/
+dist/
+
+# Rust
+src-tauri/target/
+
+# Vite
+*.local
+log/
